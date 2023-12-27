@@ -1,0 +1,31 @@
+{
+  "name": "teste-ebac-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:dashboard": "",
+    "cy:report": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anaeuz/exercicio-final-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaeuz/exercicio-final-cypress.git/issues"
+  },
+  "homepage": "https://github.com/anaeuz/exercicio-final-cypress.git#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "faker": "^5.5.3"
+  }
+}
